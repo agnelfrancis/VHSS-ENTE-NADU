@@ -1,0 +1,229 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <title>Ente Nadu</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="en-page-header">
+            <div class="form-row">
+                <div class="form-group col-md-8">
+                    <a href="index.html"><img src="assets/images/logo.png" alt="" class="en-page-header-logo"></a>
+                </div>
+                <div class="form-group col-md-4">
+                    <div id="profile-container">
+                        <image id="profileImage" src="assets/images/profile.jpg" class="en-profile-image" />
+                    </div>
+                    <input id="imageUpload" type="file" name="profile_photo" placeholder="Photo" required="" capture>
+                </div>
+            </div>
+        </div>
+
+        <form>
+            <div class="form-group">
+                <label for="name">Name</label>
+                <input type="text" class="form-control" id="name" placeholder="Name">
+            </div>
+
+            <div class="form-group">
+                <label for="inputAddress">Address</label>
+                <input type="text" class="form-control" id="inputAddress" placeholder="Address">
+            </div>
+
+            <div class="form-row">
+                <div class="form-group col-md-6">
+                    <label for="inputZip">Pincode</label>
+                    <input type="text" class="form-control" id="po">
+                </div>
+                <div class="form-group col-md-6">
+                    <label for="dob">Date of Birth</label>
+                    <input type="text" class="form-control" id="dob">
+                </div>
+            </div>
+
+            <div class="form-row">
+                <div class="form-group col-md-6">
+                    <label for="phone">Phone</label>
+                    <input type="number" class="form-control" id="phone" placeholder="Phone">
+                </div>
+                <div class="form-group col-md-6">
+                    <label for="inputEmail4">Email</label>
+                    <input type="email" class="form-control" id="inputEmail4" placeholder="Email">
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label for="aadhaar_no">Aadhaar No</label>
+                <input type="text" class="form-control" id="aadhaar_no" placeholder="Aadhaar No">
+            </div>
+
+            <div class="form-row">
+                <div class="form-group col-md-6">
+                    <label for="inputEQ">Education Qualification</label>
+                    <select id="inputEQ" class="form-control">
+                        <option selected>Choose...</option>
+                        <option>Below 10</option>
+                        <option>10</option>
+                        <option>+2</option>
+                        <option>ITI/ITC</option>
+                        <option>Deploma</option>
+                        <option>Engineering</option>
+                        <option>Degree</option>
+                        <option>PG</option>
+                        <option>Others</option>
+                    </select>
+                </div>
+                <div class="form-group col-md-6">
+                    <label for="inputSS">Skill Sector</label>
+                    <select id="inputSS" class="form-control">
+                        <option selected>Choose...</option>
+                        <option>Electrician</option>
+                        <option>Plumber</option>
+                        <option>Construction</option>
+                        <option>Electrical Appliances Service</option>
+                        <option>Two-Wheeler</option>
+                        <option>Three-Wheeler</option>
+                        <option>Car</option>
+                        <option>Other Auto Mobiles</option>
+                        <option>Ac / Fridge</option>
+                        <option>Tv And Electronics</option>
+                        <option>Well</option>
+                        <option>Wood Work</option>
+                        <option>Kooli Pani</option>
+                        <option>Coconut Climbing</option>
+                        <option>CCTV</option>
+                        <option>Computer</option>
+                        <option>Mobile</option>
+                        <option>Aluminium</option>
+                        <option>Tile</option>
+                        <option>Welding</option>
+                        <option>Others</option>
+                    </select>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label for="experiance">Experiance</label>
+                <input type="text" class="form-control" id="experiance" placeholder="Experiance">
+            </div>
+
+
+            <div class="form-group">
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" id="mycheckbox" value="0">
+                    <label class="form-check-label" for="mycheckbox">
+                        Run a Firm
+                    </label>
+                </div>
+            </div>
+
+            <div id="mycheckboxdiv" style="display:none">
+                <div class="form-group">
+                    <label for="name_firm">Name of Firm</label>
+                    <input type="text" class="form-control" id="name_firm" placeholder="Name of Firm">
+                </div>
+
+                <div class="form-group">
+                    <label for="inputAddress">Address</label>
+                    <input type="text" class="form-control" id="inputAddress" placeholder="Address">
+                </div>
+
+                <div class="form-row">
+                    <div class="form-group col-md-6">
+                        <label for="phone">Phone</label>
+                        <input type="number" class="form-control" id="phone" placeholder="Phone">
+                    </div>
+                    <div class="form-group col-md-6">
+                        <label for="place">Place</label>
+                        <input type="number" class="form-control" id="place" placeholder="Place">
+                    </div>
+                </div>
+
+
+            </div>
+
+            <div class="form-row">
+                <div class="form-group col-md-6">
+                    <label for="muncipality_panchayath">Muncipality/Panchayath</label>
+                    <input type="text" class="form-control" id="muncipality_panchayath"
+                        placeholder="Muncipality/Panchayath">
+                </div>
+                <div class="form-group col-md-6">
+                    <label for="ward_no">Ward No</label>
+                    <input type="number" class="form-control" id="ward_no" placeholder="Ward No">
+                </div>
+            </div>
+
+            <div class="form-row">
+                <div class="form-group col-md-6">
+                    <label for="place">Place</label>
+                    <input type="number" class="form-control" id="place" placeholder="Place">
+                </div>
+                <div class="form-group col-md-6">
+                    <label for="land_mark">Land Mark</label>
+                    <input type="email" class="form-control" id="land_mark" placeholder="Land Mark">
+                </div>
+            </div>
+
+            <div class="form-row">
+                <div class="form-group en-upload-file">
+                    <label for="upload_aadhaar">Upload Aadhaar</label>
+                    <input type="file" id="myFile" name="filename">
+
+                </div>
+            </div>
+
+            <div class="en-page-action">
+                <button type="submit" class="btn btn-primary">Register</button>
+            </div>
+
+        </form>
+
+        <div class="en-page-footer">
+            <span>Powered by <b>Sarvodayam VHSS</b></span>
+        </div>
+
+    </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="assets/js/jquery-3.3.1.slim.min.js"></script>
+    <script src="assets/js/popper.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+
+    <script type="text/javascript">
+        $('#mycheckbox').change(function () {
+            $('#mycheckboxdiv').toggle();
+        });
+
+        $("#profileImage").click(function (e) {
+            $("#imageUpload").click();
+        });
+
+        function fasterPreview(uploader) {
+            if (uploader.files && uploader.files[0]) {
+                $('#profileImage').attr('src',
+                    window.URL.createObjectURL(uploader.files[0]));
+            }
+        }
+
+        $("#imageUpload").change(function () {
+            fasterPreview(this);
+        });
+
+    </script>
+
+</body>
+
+</html>
